@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+   <RadioGroup
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:orientation="horizontal"
+       android:layout_alignParentBottom="true"
+       android:background="#8888">
+       
+       <RadioButton
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:drawableTop="@drawable/tab_home_select"
+           android:text="首页"
+           android:textColor="@color/tab_text_color"
+           android:gravity="center"
+           android:button="@null"/>
+
+       <RadioButton
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:drawableTop="@drawable/tab_order_select"
+           android:text="发现"
+           android:textColor="@color/tab_text_color"
+           android:gravity="center"
+           android:button="@null"/>
+
+       <RadioButton
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:drawableTop="@drawable/tab_customer_select"
+           android:text="客服"
+           android:textColor="@color/tab_text_color"
+           android:gravity="center"
+           android:button="@null"/>
+
+       <RadioButton
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:drawableTop="@drawable/tab_personal_select"
+           android:text="我的"
+           android:textColor="@color/tab_text_color"
+           android:gravity="center"
+           android:button="@null"/>
+
+
+   </RadioGroup>
+</RelativeLayout>
