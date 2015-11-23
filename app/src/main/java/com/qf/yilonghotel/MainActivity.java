@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 public class MainActivity extends Activity {
     String url = "111";
+    String url1 = "111";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
