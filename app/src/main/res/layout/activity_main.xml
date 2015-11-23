@@ -3,6 +3,11 @@
      android:layout_width="match_parent"
     android:layout_height="match_parent"
    >
+   <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_home"/>
 
    <RadioGroup
        android:id="@+id/rg_home"
@@ -11,7 +16,7 @@
        android:orientation="horizontal"
        android:layout_alignParentBottom="true"
        android:background="#8888">
-       
+
        <RadioButton
            android:id="@+id/rb_tab_home"
            android:layout_width="0dp"
